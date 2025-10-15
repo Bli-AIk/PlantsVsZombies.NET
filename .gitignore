@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Resource files - these are large binary files that should not be committed
+*.zip
+Resource_Pack_*.zip
+Content_*.zip
+
 # User-specific files
 *.rsuser
 *.suo
